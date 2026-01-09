@@ -7,5 +7,7 @@ We navigate to the path of our project which is: C:\web-app-dev\boardgame_bookin
 
 Then go to the browser and copy the url: http://localhost:3000 from our cmd which leads us to the login page of the app:
 
+<p align="center">
   <img width="660" height="500" alt="image" src="https://github.com/user-attachments/assets/a286d2bb-07e9-4754-a742-b35c4fbf3ee1" />
+</p>
 
