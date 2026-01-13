@@ -11,5 +11,4 @@ Then we go to the browser and copy the url: http://localhost:3000 from our cmd w
   <img width="660" height="500" alt="image" src="https://github.com/user-attachments/assets/a286d2bb-07e9-4754-a742-b35c4fbf3ee1" />
 </p>
 
-If we dont have an account, we can click on Register down below which redirects us to the register page:
-
+If we dont have an account, we can click on Register which redirects us to the register page:
