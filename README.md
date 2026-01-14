@@ -17,6 +17,6 @@ If we dont have an account, we can click on Register which redirects us to the w
   <img width="660" height="550" alt="image" src="https://github.com/user-attachments/assets/4eef372f-fc6f-48cf-82b9-4fd064cecb14" />
 </p>
 
-I have already made a registration on our database in the users field creating the user:
+I have already made a registration on our database in users field creating the user:
 
 <img width="800" height="150" alt="image" src="https://github.com/user-attachments/assets/f5dfb119-42a0-42ef-b0b0-239d36c2e7c3" />
