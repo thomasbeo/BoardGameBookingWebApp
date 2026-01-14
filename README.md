@@ -12,3 +12,7 @@ Then we go to the browser and copy the url: http://localhost:3000 from our cmd w
 </p>
 
 If we dont have an account, we can click on Register which redirects us to the register page:
+
+<p align="center">
+  <img width="660" height="550" alt="image" src="https://github.com/user-attachments/assets/4eef372f-fc6f-48cf-82b9-4fd064cecb14" />
+</p>
