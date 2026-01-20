@@ -20,3 +20,11 @@ If we dont have an account, we can click on Register which redirects us to the w
 I have already made a registration on our database in users field creating the user:
 
 <img width="800" height="150" alt="image" src="https://github.com/user-attachments/assets/f5dfb119-42a0-42ef-b0b0-239d36c2e7c3" />
+
+So we go back to the login page, fill the form with the users credentials and click the Login button: 
+
+<p align="center">
+  <img width="600" height="530" alt="image" src="https://github.com/user-attachments/assets/5523c4fe-b522-43b2-b8af-e7dc81f57ba1" />
+</p>
+
+We get redirected to the main frontend page:
