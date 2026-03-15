@@ -5,10 +5,10 @@ We navigate to the path of our project which is: C:\web-app-dev\boardgame_bookin
 
   <img width="400" height="70" alt="image" src="https://github.com/user-attachments/assets/271a6124-46f7-40bc-8816-10514cca21ca" />
 
-Then we go to the browser and copy the url: http://localhost:3000 from our cmd which leads us to the login page of the app:
+Then we go to the browser and copy the url: http://localhost:3000 from our cmd which leads us to the frontend page below:
 
 <p align="center">
-  <img width="660" height="500" alt="image" src="https://github.com/user-attachments/assets/a286d2bb-07e9-4754-a742-b35c4fbf3ee1" />
+  
 </p>
 
 If we dont have an account, we can click on Register which redirects us to the webpage below. The user can fill the form with all the fields, then register to our MongoDB Atlas database and finally successfully login to our main frontend page.
@@ -26,5 +26,3 @@ So we go back to the login page, fill the form with the above user credentials a
 <p align="center">
   <img width="600" height="530" alt="image" src="https://github.com/user-attachments/assets/5523c4fe-b522-43b2-b8af-e7dc81f57ba1" />
 </p>
-
-We get redirected to the main frontend page:
