@@ -29,4 +29,7 @@ Then we click on the Login button which redirects us to the login form. We fill 
   <img width="650" height="400" alt="Image" src="https://github.com/user-attachments/assets/508df787-cc49-4cd1-aa1b-82af85ce922b" />
 </p>
 
-Finally we login to the frontend page. Now that the user has logged in on the top right corner 
+Finally we login to the frontend page. Now that the user has logged in, on the top right corner there is a Logout button so when he clicks on it he gets redirected back to the login form.
+
+<img width="160" height="50" alt="Image" src="https://github.com/user-attachments/assets/c6fed1bc-2899-4495-aa1a-dd51a5ccdc9d" />
+
