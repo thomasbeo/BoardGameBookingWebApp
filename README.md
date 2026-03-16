@@ -11,18 +11,8 @@ Then we go to the browser and copy the url: http://localhost:3000 from our cmd w
   <img width="1901" height="2433" alt="Image" src="https://github.com/user-attachments/assets/e2704117-bd71-45bf-ad89-75a8d841bc51" />
 </p>
 
-If we dont have an account, we can click on Register which redirects us to the webpage below. The user can fill the form with all the fields, then register to our MongoDB Atlas database and finally successfully login to our main frontend page.
+There are some facilities which the user should select first and then choose one of the board games that are shown and make a reservation. We will demonstrate how the reservation is made. On the top right corner there are 2 buttons named Login and Register. First the user clicks on Register and then a form appears with some fields to fill as it is shown below. 
 
 <p align="center">
-  <img width="660" height="550" alt="image" src="https://github.com/user-attachments/assets/4eef372f-fc6f-48cf-82b9-4fd064cecb14" />
-</p>
-
-I have already made a registration on our database in users field creating the user:
-
-<img width="800" height="150" alt="image" src="https://github.com/user-attachments/assets/f5dfb119-42a0-42ef-b0b0-239d36c2e7c3" />
-
-So we go back to the login page, fill the form with the above user credentials and click the Login button: 
-
-<p align="center">
-  <img width="600" height="530" alt="image" src="https://github.com/user-attachments/assets/5523c4fe-b522-43b2-b8af-e7dc81f57ba1" />
+  
 </p>
