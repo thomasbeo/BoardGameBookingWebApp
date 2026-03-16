@@ -22,5 +22,3 @@ We click on the button named Create Account and then the user is registered on o
 <p align="center">
   <img width="650" height="180" alt="Image" src="https://github.com/user-attachments/assets/d8dc4671-74cf-4d0b-bf94-e641a7191542" />
 </p>
-
-<img width="663" height="549" alt="Image" src="https://github.com/user-attachments/assets/2f98492c-1995-43fa-b573-b4188f462619" />
