@@ -8,7 +8,7 @@ We navigate to the path of our project which is: C:\web-app-dev\boardgame_bookin
 Then we go to the browser and copy the url: http://localhost:3000 from our cmd which leads us to the frontend page below:
 
 <p align="center">
-  <img width="1894" height="765" alt="Image" src="https://github.com/user-attachments/assets/f906a653-ca35-47b2-9086-cb1ec9eecf9f" />
+  
 </p>
 
 If we dont have an account, we can click on Register which redirects us to the webpage below. The user can fill the form with all the fields, then register to our MongoDB Atlas database and finally successfully login to our main frontend page.
