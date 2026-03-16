@@ -17,7 +17,7 @@ There are some facilities which the user should select first and then choose one
   <img width="650" height="400" alt="Image" src="https://github.com/user-attachments/assets/cd65d71b-3bb4-4225-bbe9-4769839514fd" />
 </p>
 
-We click on the button named Create Account and then the user is registered on our MongoDB Atlas database on the users field:   
+We click on the button named Create account and then the user is registered on our MongoDB Atlas database on the users field:   
 
 <p align="center">
   <img width="650" height="180" alt="Image" src="https://github.com/user-attachments/assets/d8dc4671-74cf-4d0b-bf94-e641a7191542" />
