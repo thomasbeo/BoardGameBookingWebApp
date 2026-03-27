@@ -5,7 +5,7 @@ We navigate to the path of our project which is: C:\web-app-dev\boardgame_bookin
 
   <img width="400" height="70" alt="image" src="https://github.com/user-attachments/assets/271a6124-46f7-40bc-8816-10514cca21ca" />
 
-Then we go to the browser and copy the url: http://localhost:3000 from our cmd which leads us to the frontend page below:
+Then we go to the browser to the url: http://localhost:3000 which leads us to the frontend page below:
 
 <p align="center">
   <img width="1901" height="2433" alt="Image" src="https://github.com/user-attachments/assets/e2704117-bd71-45bf-ad89-75a8d841bc51" />
