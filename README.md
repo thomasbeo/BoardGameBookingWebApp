@@ -11,7 +11,7 @@ Then we go to the browser to the url: http://localhost:3000 which leads us to th
   <img width="1901" height="2433" alt="Image" src="https://github.com/user-attachments/assets/e2704117-bd71-45bf-ad89-75a8d841bc51" />
 </p>
 
-There are some facilities which the user should select first and then choose one of the board games that are shown and make a reservation. We will demonstrate how the reservation is made. On the top right corner there are 2 buttons named Login and Register. First the user clicks on Register and then a form appears with some fields to fill as it is shown below:
+There are some facilities which the user selects one of them, then chooses one of the existing board games and makes a reservation. We will demonstrate how the reservation is made. On the top right corner there are 2 buttons named Login and Register. Initially the user clicks on Register and then a form appears with some fields to fill as it is shown below:
 
 <p align="center">
   <img width="650" height="400" alt="Image" src="https://github.com/user-attachments/assets/cd65d71b-3bb4-4225-bbe9-4769839514fd" />
