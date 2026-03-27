@@ -40,5 +40,5 @@ Also in the GameCenter on the right there are 2 buttons:
 We will explain the use of those 2 buttons but first we will show how the user can make and mofify a reservation. We navigate to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. For example we can choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with some fields to fill. 
 
 <p align="center">
-  <img width="450" height="390" alt="image" src="https://github.com/user-attachments/assets/dd2c8d8a-92fc-4f8b-a012-5034e9bafc48" />
+  <img width="490" height="380" alt="image" src="https://github.com/user-attachments/assets/811c7b8e-b4d2-4fcc-8439-e26913bee0fe" />
 </p>
