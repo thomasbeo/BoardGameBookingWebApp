@@ -32,9 +32,13 @@ Then we click on the Login button which redirects us to the login form. We fill 
 Finally we login to the frontend page. Now that the user has logged in, on the top right corner there is a Logout button so when he clicks on it he gets redirected back to the login form. 
 
 <p align="center">
-  <img width="160" height="50" alt="Image" src="https://github.com/user-attachments/assets/c6fed1bc-2899-4495-aa1a-dd51a5ccdc9d" />  
+  <img width="150" height="50" alt="Image" src="https://github.com/user-attachments/assets/c6fed1bc-2899-4495-aa1a-dd51a5ccdc9d" />  
 </p>
 Also in the GameCenter on the right there are 2 buttons:
 <img width="1000" height="75" alt="Image" src="https://github.com/user-attachments/assets/b8ed9d5b-38d0-4264-8e6c-15695cccfb43" />
 
-We will explain the use of those 2 buttons but first we will show how the user can make and mofify a reservation.
+We will explain the use of those 2 buttons but first we will show how the user can make and mofify a reservation. We navigate to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. For example we can choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with some fields to fill. 
+
+<p align="center">
+  <img width="450" height="390" alt="image" src="https://github.com/user-attachments/assets/dd2c8d8a-92fc-4f8b-a012-5034e9bafc48" />
+</p>
