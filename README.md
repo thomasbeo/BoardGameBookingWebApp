@@ -23,7 +23,7 @@ We click on the button named Create account and then the user is registered on o
   <img width="650" height="180" alt="Image" src="https://github.com/user-attachments/assets/d8dc4671-74cf-4d0b-bf94-e641a7191542" />
 </p>
 
-Then we click on the Login button which redirects us to the login form. We fill the fields with the previous users credentials and we click the Login button:
+Then we click on the Login button which redirects us to the login form. We fill the fields with the previous user credentials and we click the Login button:
 
 <p align="center">
   <img width="650" height="400" alt="Image" src="https://github.com/user-attachments/assets/508df787-cc49-4cd1-aa1b-82af85ce922b" />
