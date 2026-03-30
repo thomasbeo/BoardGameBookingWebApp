@@ -49,8 +49,8 @@ We will explain the use of those 2 buttons but first we will show how the user c
 
 This message confirms we chose the "Board Game Room 1".
 
-Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. Suppose we choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with the fields to fill as it is shown below. 
+Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. Suppose we choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears as it is shown below. 
 
 <p align="center">
-  
+  <img width="450" height="360" alt="image" src="https://github.com/user-attachments/assets/2c6cb8cb-3f97-4791-9f23-80d20b4c5ce9" />
 </p>
