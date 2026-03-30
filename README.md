@@ -73,20 +73,20 @@ Finally if we fill the form with some random choices from the user:
 
 And then click on the button "Confirm Reservation", then a message pops up from the server which confirms that the reservation is done successfully:
 
-<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/db82d3be-5c1a-4699-9e82-558ed6b14046" />
+<img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/db82d3be-5c1a-4699-9e82-558ed6b14046" />
 
 Also it is important that this reservation is stored to our MongoDB Atlas database to the reservations field:
 
-<img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/6b6c6dbc-dbbb-486d-b248-74f84d82d4bf" />
+<img width="700" height="325" alt="image" src="https://github.com/user-attachments/assets/6b6c6dbc-dbbb-486d-b248-74f84d82d4bf" />
 
 Now that we explained how the reservation is made, we can take a look on those two buttons we mentioned in the beginning:
 
 <p align="center">
-  <img width="450" height="80" alt="image" src="https://github.com/user-attachments/assets/965cacfc-15ca-4fbc-b8fd-c1e98e250dc5" />  
+  <img width="400" height="80" alt="image" src="https://github.com/user-attachments/assets/965cacfc-15ca-4fbc-b8fd-c1e98e250dc5" />  
 </p>
 
 If we click on the left button named "Όλες οι κρατήσεις" we can see all the reservations made from all the users:
 
 <p align="center">
-  <img width="1200" height="750" alt="image" src="https://github.com/user-attachments/assets/578f2481-eb05-4a95-aeee-311b04d7d074" />
+  <img width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/578f2481-eb05-4a95-aeee-311b04d7d074" />
 </p>
