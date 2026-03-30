@@ -43,7 +43,7 @@ So when the user logs in, the top side of the frontend is like:
   <img width="1600" height="700" alt="image" src="https://github.com/user-attachments/assets/6ff24e55-b972-4d3d-9392-b760078c333c" />
 </p>
 
-We will explain the use of those 2 buttons but first we will show how the user can make a reservation. If we click on the yellow button named "Explore Facilities", we go to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Below each one of the facilities there is a button named "Book Now". For example if we click on the facility "Board Game Room 1" then the server displays the message:
+We will explain the use of those 2 buttons but first we will demonstrate how the user can make a reservation. If we click on the yellow button named "Explore Facilities", we go to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Below each one of the facilities there is a button named "Book Now". For example if we click on the facility "Board Game Room 1" then the server displays the message:
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/cd511ee0-e2e2-459a-b1f5-3daa22fe0135" />
 
