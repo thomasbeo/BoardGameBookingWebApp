@@ -59,3 +59,11 @@ This form has three fields for the user to fill. The first one is the "Facility"
 
 <img width="450" height="170" alt="image" src="https://github.com/user-attachments/assets/a28c6c60-45d8-485e-a1f7-fd751c93e98a" />
 
+The second field is the "Date" from which the user can select any present or future date. It is prevented to choose a date from the past since this is not possible.  
+
+<img width="210" height="330" alt="image" src="https://github.com/user-attachments/assets/9d5fef33-0c3e-4262-a74a-468d7f5955d3" />
+
+And the last field is the "Time Slot" which displays some fixed time intervals:
+
+<img width="450" height="180" alt="image" src="https://github.com/user-attachments/assets/a3daed7e-0ea0-4baa-a16f-2ec84fef072b" />
+
