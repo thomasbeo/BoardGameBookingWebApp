@@ -85,8 +85,15 @@ Now that we explained how the reservation is made, we can take a look on those t
   <img width="400" height="80" alt="image" src="https://github.com/user-attachments/assets/965cacfc-15ca-4fbc-b8fd-c1e98e250dc5" />  
 </p>
 
-If we click on the left button named "Όλες οι κρατήσεις" we can see all the reservations made from all the users:
+If we click on the left button named "Όλες οι κρατήσεις" we can see all the reservations that are made from all the users:
 
 <p align="center">
   <img width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/578f2481-eb05-4a95-aeee-311b04d7d074" />
+</p>
+
+We can cancel any rservation by clicking on the button "Ακύρωση". For example if we choose to cancel the reservation we made earlier, now we see:
+
+<p align="center>
+  <img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/1c3cd17e-71e5-4fe7-80ff-43487020c51f" />
+  <img width="200" height="270" alt="image" src="https://github.com/user-attachments/assets/cae600fe-1362-4d83-8bb4-acd56dde6955" />
 </p>
