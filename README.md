@@ -37,6 +37,12 @@ Finally we login to the frontend page. Now that the user has logged in, on the t
 Also in the GameCenter on the right there are 2 buttons:
 <img width="1000" height="75" alt="Image" src="https://github.com/user-attachments/assets/b8ed9d5b-38d0-4264-8e6c-15695cccfb43" />
 
+So when the user logs in, the top side of the frontend is like:
+
+<p align="center">
+  <img width="1600" height="700" alt="image" src="https://github.com/user-attachments/assets/6ff24e55-b972-4d3d-9392-b760078c333c" />
+</p>
+
 We will explain the use of those 2 buttons but first we will show how the user can make and mofify a reservation. We navigate to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. For example we can choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with some fields to fill. 
 
 <p align="center">
