@@ -52,5 +52,10 @@ This message confirms we chose the "Board Game Room 1".
 Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. Suppose we choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears as it is shown below. 
 
 <p align="center">
-  <img width="450" height="360" alt="image" src="https://github.com/user-attachments/assets/2c6cb8cb-3f97-4791-9f23-80d20b4c5ce9" />
+  <img width="450" height="350" alt="image" src="https://github.com/user-attachments/assets/2c6cb8cb-3f97-4791-9f23-80d20b4c5ce9" />
 </p>
+
+This form has three fields for the user to fill. The first one is the "Facility" which was chosen earlier. If the user eventually wants to select a diffenrent facility, there is the following dropdown menu:
+
+<img width="450" height="170" alt="image" src="https://github.com/user-attachments/assets/a28c6c60-45d8-485e-a1f7-fd751c93e98a" />
+
