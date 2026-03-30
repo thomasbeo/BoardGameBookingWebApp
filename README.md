@@ -47,7 +47,7 @@ We will explain the use of those 2 buttons but first we will demonstrate how the
 
 <img width="500" height="200" alt="image" src="https://github.com/user-attachments/assets/cd511ee0-e2e2-459a-b1f5-3daa22fe0135" />
 
-This message confirms we chose the "Board Game Room 1".
+This message confirms we chose facility.
 
 Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. Suppose we choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears as it is shown below. 
 
