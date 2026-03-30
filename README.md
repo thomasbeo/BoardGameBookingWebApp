@@ -104,4 +104,4 @@ Now we can see below there is the red button that says "Ακυρώθηκε" whic
   <img width="1900" height="500" alt="image" src="https://github.com/user-attachments/assets/e066088a-e9e0-44d5-97c5-252d848ed4de" />
 </p>
 
-Then if we click in the top right corner the button "<-Επιστροφή" we go back to the frontend page. 
+Then if we click in the top right corner the button "Επιστροφή" we go back to the frontend page. 
