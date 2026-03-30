@@ -97,3 +97,5 @@ We can cancel any reservation by clicking on the button "Ακύρωση". For ex
   <img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/1c3cd17e-71e5-4fe7-80ff-43487020c51f" />
   <img width="200" height="270" alt="image" src="https://github.com/user-attachments/assets/cae600fe-1362-4d83-8bb4-acd56dde6955" />
 </p>
+
+Now we can see below there is the red button that says "Ακυρώθηκε" which indicates that the reservation is canceled. 
