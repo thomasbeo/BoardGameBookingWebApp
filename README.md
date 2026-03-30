@@ -75,3 +75,6 @@ And then click on the button "Confirm Reservation", then a message pops up from 
 
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/db82d3be-5c1a-4699-9e82-558ed6b14046" />
 
+Also it is important that this reservation is stored to our MongoDB Atlas database to the reservations field:
+
+<img width="800" height="335" alt="image" src="https://github.com/user-attachments/assets/84c34751-5f49-4891-bb70-40436663fae1" />
