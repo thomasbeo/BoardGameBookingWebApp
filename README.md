@@ -67,3 +67,11 @@ And the last field is the "Time Slot" which displays some fixed time intervals:
 
 <img width="450" height="180" alt="image" src="https://github.com/user-attachments/assets/a3daed7e-0ea0-4baa-a16f-2ec84fef072b" />
 
+Finally if we fill the form with some random choices from the user:
+
+<img width="470" height="375" alt="image" src="https://github.com/user-attachments/assets/074b4814-f572-4dac-91a6-49aa6030e5b2" />
+
+And then click on the button "Confirm Reservation", then a message pops up from the server which confirms that the reservation is done successfully:
+
+<img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/db82d3be-5c1a-4699-9e82-558ed6b14046" />
+
