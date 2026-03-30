@@ -17,7 +17,7 @@ There are some facilities which the user selects one of them, then chooses one o
   <img width="650" height="400" alt="Image" src="https://github.com/user-attachments/assets/cd65d71b-3bb4-4225-bbe9-4769839514fd" />
 </p>
 
-We click on the button named Create account and then the user is registered on our MongoDB Atlas database on the users field:   
+We click on the button named "Create account" and then the user is registered on our MongoDB Atlas database on the users field:   
 
 <p align="center">
   <img width="650" height="180" alt="Image" src="https://github.com/user-attachments/assets/d8dc4671-74cf-4d0b-bf94-e641a7191542" />
@@ -43,7 +43,7 @@ So when the user logs in, the top side of the frontend is like:
   <img width="1600" height="700" alt="image" src="https://github.com/user-attachments/assets/6ff24e55-b972-4d3d-9392-b760078c333c" />
 </p>
 
-We will explain the use of those 2 buttons but first we will show how the user can make and mofify a reservation. We navigate to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. For example we can choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with some fields to fill. 
+We will explain the use of those 2 buttons but first we will show how the user can make a reservation. If we click on the yellow button named "Explore Facilities", we go to "Our Facilities" field and we can observe the existing three facilities. We can decide in which one of them we want to play the board game eventually. Below each one of the facilities the is a button named "Book Now".  Afterwards if we navigate to the "Popular Games" field we can see the four board games we can play. For example we can choose to play the "Uno" board game by clicking the button named "Play Now". Then the following form appears with some fields to fill. 
 
 <p align="center">
   <img width="490" height="380" alt="image" src="https://github.com/user-attachments/assets/811c7b8e-b4d2-4fcc-8439-e26913bee0fe" />
