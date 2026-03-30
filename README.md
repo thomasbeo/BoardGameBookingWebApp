@@ -91,7 +91,7 @@ If we click on the left button named "Όλες οι κρατήσεις" we can s
   <img width="1100" height="700" alt="image" src="https://github.com/user-attachments/assets/578f2481-eb05-4a95-aeee-311b04d7d074" />
 </p>
 
-We can cancel any rservation by clicking on the button "Ακύρωση". For example if we choose to cancel the reservation we made earlier, now we see:
+We can cancel any reservation by clicking on the button "Ακύρωση". For example if we choose to cancel the reservation we made earlier, now we see:
 
 <p align="center>
   <img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/1c3cd17e-71e5-4fe7-80ff-43487020c51f" />
