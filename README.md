@@ -94,8 +94,8 @@ If we click on the left button named "Όλες οι κρατήσεις" we can s
 We can cancel any reservation by clicking on the button "Ακύρωση". For example if we choose to cancel the reservation we made earlier, we see:
 
 <p align="center">
-  <img width="500" height="150" alt="image" src="https://github.com/user-attachments/assets/1c3cd17e-71e5-4fe7-80ff-43487020c51f" />
-  <img width="200" height="270" alt="image" src="https://github.com/user-attachments/assets/cae600fe-1362-4d83-8bb4-acd56dde6955" />
+  <img width="300" height="125" alt="image" src="https://github.com/user-attachments/assets/1c3cd17e-71e5-4fe7-80ff-43487020c51f" />
+  <img width="150" height="200" alt="image" src="https://github.com/user-attachments/assets/cae600fe-1362-4d83-8bb4-acd56dde6955" />
 </p>
 
 Now we can see above there is the red button that says "Ακυρώθηκε" which indicates that the reservation is canceled. By clicking the other button named "Ακυρωμένες κρατήσεις" we get redirected to a new page in which all the canceled reservations are shown below:
