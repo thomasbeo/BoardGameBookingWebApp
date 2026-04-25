@@ -27,9 +27,7 @@
 
 ## 🚀 How to Run
 
-Navigate to your project directory:
-
-C:\web-app-dev\boardgame_booking
+Navigate to your project directory: C:\web-app-dev\boardgame_booking
 
 Start the server:
 
@@ -37,9 +35,7 @@ Start the server:
   <img src="https://github.com/user-attachments/assets/271a6124-46f7-40bc-8816-10514cca21ca" width="450"/>
 </p>
 
-Open in browser:
-
-http://localhost:3000
+Open in browser: http://localhost:3000
 
 <br>
 
