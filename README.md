@@ -110,6 +110,8 @@ Stored in MongoDB:
 
 ### Step 1: Choose Facility
 
+By clicking the button: "Explore Facilities" we navigate to the available facilities. Then if we click the button: "Book Now" that exists under one of each facility, it is displayed the following message that confirms our choice: 
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/cd511ee0-e2e2-459a-b1f5-3daa22fe0135" width="500"/>
 </p>
