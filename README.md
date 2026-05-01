@@ -1,7 +1,13 @@
 # 🎲 Board Game Booking Web App
 
 <p align="center">
-  A full-stack web application for booking board game sessions, selecting facilities, and managing reservations in real-time.
+  A full-stack web application that allows users to browse facilities, select board games, and manage reservations in real-time.
+</p>
+
+<p align="center">
+  <a href="https://boardgamebookingwebapp-x0ep.onrender.com/">
+    <img src="https://img.shields.io/badge/🚀%20Live%20Demo-Visit%20App-success?style=for-the-badge" />
+  </a>
 </p>
 
 <p align="center">
@@ -9,35 +15,67 @@
   <img src="https://img.shields.io/badge/Express.js-API-lightgrey" />
   <img src="https://img.shields.io/badge/MongoDB-Database-green" />
   <img src="https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-blue" />
-  <img src="https://img.shields.io/badge/Features-Reservations%20System-orange" />
+  <img src="https://img.shields.io/badge/Deployment-Render-purple" />
 </p>
 
 ---
 
-## 📑 Table of Contents
+## ✨ Key Features
 
-- [🚀 How to Run](#-how-to-run)
-- [🏠 Main Interface](#-main-interface)
-- [🔐 Authentication](#-authentication)
-- [🎯 Booking Flow](#-booking-flow)
-- [📊 Reservation Management](#-reservation-management)
-- [❌ Cancellation System](#-cancellation-system)
+- 🔐 User authentication (register/login with JWT)
+- 📅 Real-time reservation system
+- 🏠 Facility & board game selection
+- ❌ Reservation cancellation with tracking
+- 🧑‍💼 Admin Back Office for canceled bookings
+- 📧 Email notifications (confirmation & cancellation)
+- 📱 Responsive UI (Bootstrap-based)
 
 ---
 
-## 🚀 How to Run
+## 🌐 Live Demo
 
-Navigate to your project directory: C:\web-app-dev\boardgame_booking
+👉 https://boardgamebookingwebapp-x0ep.onrender.com/
 
-Start the server:
+> ⚠️ Note: The app may take a few seconds to load initially due to Render free-tier cold start.
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/271a6124-46f7-40bc-8816-10514cca21ca" width="450"/>
-</p>
+---
 
-Open in browser: http://localhost:3000
+## 🏗️ Architecture Overview
 
-<br>
+
+- RESTful API structure
+- MVC-style backend (routes, controllers, models)
+- Static frontend served via Express
+
+---
+
+## ⚙️ Tech Stack
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB (Mongoose)
+- JWT Authentication
+- Nodemailer (email system)
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- Bootstrap 5
+
+### Deployment
+- Render (Web Service)
+- MongoDB Atlas (Cloud DB)
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/thomasbeo/BoardGameBookingWebApp.git
+cd BoardGameBookingWebApp
 
 ---
 
