@@ -245,7 +245,6 @@ By clicking the button: "Explore Facilities" we navigate to the available facili
 - 🔔 Email notifications  
 - 📱 Mobile responsiveness improvements  
 - 🎮 More board games & filtering  
-- 🌍 Deployment (Render / AWS / Vercel)
 
 ---
 
