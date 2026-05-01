@@ -70,13 +70,6 @@ https://boardgamebookingwebapp-x0ep.onrender.com/
 
 ## 🚀 Getting Started (Local Setup)
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/thomasbeo/BoardGameBookingWebApp.git
-cd BoardGameBookingWebApp
-
----
-
 ## 🏠 Main Interface
 
 <p align="center">
