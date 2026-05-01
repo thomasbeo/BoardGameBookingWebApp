@@ -1,0 +1,160 @@
+/* General */
+body {
+  background: #f5f7fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  height: 70vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url("/images/room2.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 700px;
+  animation: fadeInUp 1.5s ease;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Section Titles */
+.section-title {
+  font-weight: 700;
+  color: #444;
+  border-bottom: 3px solid #ffc107;
+  display: inline-block;
+  padding-bottom: 6px;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.btn-book {
+  background: #ffc107;
+  color: #222;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: background 0.3s ease;
+}
+
+.btn-book:hover {
+  background: #e0a800;
+  color: #fff;
+}
+
+/* AUTH (register/login) styling */
+.auth-card { border-radius: 14px; overflow: hidden; }
+.auth-illustration {
+  background: linear-gradient(135deg, #1f3a93 0%, #6f42c1 100%);
+  background-size: cover;
+  min-height: 100%;
+  background-position: center;
+  background-image:
+    linear-gradient(rgba(0,0,0,0.18), rgba(0,0,0,0.18)),
+    /*url("/images/auth-illustration.jpg"); /* optional image */
+}
+
+.brand { color: #222; text-decoration: none; font-size: 1.05rem; }
+.auth-card .card-body { padding: 2rem; }
+
+.btn-primary {
+  --bs-btn-bg: #0d6efd;
+  --bs-btn-hover-bg: #0b5ed7;
+}
+
+.alert { margin-top: 0.5rem; }
+
+.navbar .btn {
+  transition: all 0.3s ease;
+}
+.navbar .btn:hover {
+  background: #e0a800;
+  color: #fff;
+}
+
+.nav-item {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #ff6a00, #ee0979);
+  padding: 8px 16px;
+  border-radius: 25px;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#reservationsList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+#reservationsList .card {
+  max-width: 300px;
+}
+
+#reservationsBtn {
+  background: linear-gradient(90deg, #ffcc00, #ff8800);
+  color: #222;
+  font-weight: 700;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(255, 136, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+} 
+
+#reservationsBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 136, 0, 0.5);
+  background: linear-gradient(90deg, #ffd633, #ff9900);
+  color: #fff;
+}
+
+/* small screens */
+@media (max-width: 767px) {
+  .auth-illustration { display: none; }
+  .auth-card { border-radius: 10px; }
+}

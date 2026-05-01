@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login — BoardGame Booking</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center">
+      <div class="col-11 col-md-8 col-lg-6">
+        <div class="card auth-card shadow">
+          <div class="card-body p-4">
+            <a href="/" class="d-inline-block mb-3 brand">🎲 <span class="fw-bold">BoardGameBooking</span></a>
+            <h3 class="mb-2">Welcome back</h3>
+            <p class="text-muted small mb-3">Log in to manage bookings and play.</p>
+
+            <div id="alert" class="alert d-none" role="alert"></div>
+
+            <form id="form" novalidate>
+              <div class="mb-3">
+                <label for="identifier" class="form-label">Email or username</label>
+                <input id="identifier" name="identifier" class="form-control" placeholder="you@example.com or username" required />
+                <div class="invalid-feedback">Enter your email or username.</div>
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <div class="input-group">
+                  <input id="password" name="password" type="password" class="form-control" required />
+                  <button class="btn btn-outline-secondary" type="button" id="togglePassword">Show</button>
+                </div>
+                <div class="invalid-feedback">Please enter your password.</div>
+              </div>
+
+              <div class="mb-3">
+                <div class="g-recaptcha" data-sitekey="6LcKn9UrAAAAAJGaAG8MGDz81R2O6UrfdOgyOvHS"></div>
+              </div>
+
+              <div class="d-grid mt-3">
+                <button id="submitBtn" class="btn btn-primary btn-lg">Login</button>
+              </div>
+            </form>
+
+            <hr class="my-3">
+            <p class="text-center small mb-0">No account? <a href="/register.html">Register</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      (function () {
+        const form = document.getElementById('form');
+        const alertBox = document.getElementById('alert');
+        const submitBtn = document.getElementById('submitBtn');
+        const togglePassword = document.getElementById('togglePassword');
+        const passwordInput = document.getElementById('password');
+
+        function showAlert(type, text) {
+          alertBox.className = 'alert alert-' + type;
+          alertBox.textContent = text;
+          alertBox.classList.remove('d-none');
+        }
+        function hideAlert() { alertBox.classList.add('d-none'); }
+
+        togglePassword.addEventListener('click', () => {
+          if (passwordInput.type === 'password') {
+            passwordInput.type = 'text';
+            togglePassword.textContent = 'Hide';
+          } else {
+            passwordInput.type = 'password';
+            togglePassword.textContent = 'Show';
+          }
+        });
+
+        form.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          hideAlert();
+
+          if (!form.checkValidity()) {
+            form.classList.add('was-validated');
+            return;
+          }
+
+          // --- ΝΕΟ: έλεγχος captcha ---
+          const captchaResponse = grecaptcha.getResponse();
+          if (!captchaResponse) {
+            showAlert('danger', 'Παρακαλώ επιβεβαίωσε το captcha.');
+            return;
+          }
+
+          const identifier = form.identifier.value.trim();
+          const password = form.password.value;
+
+          submitBtn.disabled = true;
+          const oldText = submitBtn.textContent;
+          submitBtn.innerHTML = '<span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>Signing in...';
+
+          // if identifier contains '@' treat as email
+          const isEmail = identifier.includes('@');
+          const body = isEmail ? { email: identifier, password } : { username: identifier, password };
+          // προσθήκη token
+          body['g-recaptcha-response'] = captchaResponse;
+
+          try {
+            const res = await fetch('/api/auth/login', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(body)
+            });
+
+            const json = await res.json();
+            if (!res.ok) {
+              showAlert('danger', json.message || json.error || 'Login failed');
+              submitBtn.disabled = false;
+              submitBtn.textContent = oldText;
+              return;
+            }
+
+            // Save token (assumes server returns { token })
+            if (json.token) localStorage.setItem('token', json.token);
+            // Redirect to homepage
+            location.href = '/';
+          } catch (err) {
+            showAlert('danger', 'Network error: ' + err.message);
+            submitBtn.disabled = false;
+            submitBtn.textContent = oldText;
+          }
+        });
+      })();
+    </script>
+</body>
+</html>
