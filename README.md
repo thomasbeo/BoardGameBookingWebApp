@@ -34,9 +34,7 @@
 
 ## 🌐 Live Demo
 
-👉 https://boardgamebookingwebapp-x0ep.onrender.com/
-
-> ⚠️ Note: The app may take a few seconds to load initially due to Render free-tier cold start.
+https://boardgamebookingwebapp-x0ep.onrender.com/
 
 ---
 
