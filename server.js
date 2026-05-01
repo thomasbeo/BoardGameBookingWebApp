@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGO_URI)
     .then(() => {
         console.log("MongoDB connected");
         app.listen(process.env.PORT || 3000, () =>
-            console.log(`Server running on http://localhost:${process.env.PORT || 3000}`)
+            console.log(`Server running on https://boardgamebookingwebapp-x0ep.onrender.com${process.env.PORT || 3000}`)
         );
     })
     .catch(err => console.error("❌ MongoDB connection error:", err));
