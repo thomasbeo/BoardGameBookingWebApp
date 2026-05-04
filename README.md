@@ -34,7 +34,9 @@
 
 ## 🌐 Live Demo
 
-https://boardgamebookingwebapp-x0ep.onrender.com/
+🚀 Production URL: https://boardgamebookingwebapp-x0ep.onrender.com/
+
+Deployed on Render with MongoDB Atlas and secure environment configuration.
 
 ---
 
