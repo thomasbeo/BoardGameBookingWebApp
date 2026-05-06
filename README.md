@@ -1,7 +1,7 @@
 # 🎲 Board Game Booking Web App
 
 <p align="center">
-  A full-stack web application that allows users to browse facilities, select board games, and manage reservations in real-time.
+  A full-stack web application that allows users to browse rooms, select board games, and manage reservations in real-time.
 </p>
 
 <p align="center">
