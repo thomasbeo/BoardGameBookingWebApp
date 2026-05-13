@@ -106,7 +106,7 @@ Stored in MongoDB:
 ### Login
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/508df787-cc49-4cd1-aa1b-82af85ce922b" width="600"/>
+  <img src="https://github.com/user-attachments/assets/508df787-cc49-4cd1-aa1b-82af85ce922b" width="450"/>
 </p>
 
 <br>
